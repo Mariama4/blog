@@ -2,7 +2,7 @@ baseURL = "http://example.org/"
 defaultContentLanguage = "en"
 languageCode = "en"
 
-title = "My New Hugo Site"
+title = "Mariama4's blog"
 
 theme = "gokarna"
 
@@ -36,8 +36,39 @@ enableRobotsTXT = true
     
   [[menu.main]]
     identifier = "github"
-    url = "https://github.com"
+    url = "https://github.com/Mariama4"
     weight = 3
     
     # We use feather-icons: https://feathericons.com/
     pre = "<span data-feather='github'></span>"
+
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "https://avatars.githubusercontent.com/u/61371131?v=4"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = ""
+
+  # Description to display on homepage
+  description = ""
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # Display "back to top" button on posts
+  ShowBackToTopButton = true
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo", "Fullstack разработка", "Backend разработка", "JavaScript", "Node.js", "Python", "Web-разработка", "REST API", "Асинхронное программирование", "Express.js", "Django", "MongoDB", "SQL", "NoSQL", "Git", "CI/CD", "Docker", "Kubernetes", "Microservices", "Serverless", "AWS", "Azure", "Google Cloud", "DevOps", "Тестирование", "Jest", "Mocha", "Unit тесты", "Интеграционное тестирование", "Архитектура ПО", "Scalability", "Performance Optimization", "Security Best Practices", "GraphQL", "TypeScript", "Vue.js", "React", "Angular", "Redux", "CI/CD Pipeline", "Design Patterns", "Algorithms", "Data Structures", "Big O Notation", "Machine Learning", "Искусственный интеллект", "Компьютерное зрение", "Нейронные сети", "Блокчейн", "IoT", "Разработка мобильных приложений", "UX/UI дизайн", "Agile методологии", "Системный анализ", "Проектирование баз данных", "Software Engineering", "Frontend Development", "Backend Services", "API Design", "GraphQL", "Microfrontend Architecture", "Responsive Web Design", "Single Page Applications (SPA)", "Web Performance", "Website Optimization", "Code Quality", "Clean Code Practices", "Error Handling", "Logging and Monitoring", "Continuous Integration", "Continuous Deployment", "Infrastructure as Code (IaC)", "Configuration Management", "Load Balancing", "Caching Strategies", "Session Management", "Authentication", "Authorization", "OAuth", "JSON Web Tokens (JWT)", "Web Security", "Cross-Site Scripting (XSS)", "Cross-Site Request Forgery (CSRF)", "Secure Coding Practices", "Penetration Testing", "Cybersecurity", "Data Privacy", "Compliance Standards (GDPR, HIPAA)", "Cloud Computing", "Server Management", "Linux Administration", "Shell Scripting", "Network Protocols", "TCP/IP", "HTTP/HTTPS", "WebSockets", "DNS Management", "Content Delivery Networks (CDN)", "Reverse Proxy", "Database Management", "Relational Databases", "NoSQL Databases", "Data Warehousing", "ETL Processes", "Data Analytics", "Business Intelligence (BI)", "Data Visualization", "Natural Language Processing (NLP)", "Computer Vision", "Reinforcement Learning", "Deep Learning", "Neural Networks", "Algorithm Optimization", "Computational Complexity", "Quantum Computing", "Blockchain Technology", "Smart Contracts", "Cryptocurrencies", "Decentralized Applications (DApps)", "Internet of Things (IoT)", "Embedded Systems", "Firmware Development", "Mobile App Development", "Native Mobile Apps", "Cross-Platform Development", "Hybrid Mobile Apps", "User Experience (UX) Design", "User Interface (UI) Design", "Interaction Design", "Wireframing", "Prototyping", "Usability Testing", "Accessibility Standards", "Agile Methodologies", "Scrum", "Kanban", "Lean Development", "Pair Programming", "Code Reviews", "Version Control", "Git Workflow", "GitHub", "Bitbucket", "Project Management", "Software Development Lifecycle (SDLC)", "Requirements Analysis", "System Design", "Technical Documentation", "API Documentation", "Collaboration Tools", "Communication Skills", "Problem Solving", "Critical Thinking", "Team Leadership", "Time Management", "Career Development", "Interview Preparation", "Freelancing Tips", "Remote Work Strategies"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  showPostsOnHomePage = ""
+
+  # Footer text
+  footer = ""
